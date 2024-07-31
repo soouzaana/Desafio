@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <title>Horário Diário</title>
+</head>
+
+<body>
+  <!--Cabeçalho começo-->
+  <header>
+    <div class="esquerda">
+      <div id="user">
+        <div id="img">
+          <img id=userAvatar src="/assets/ImagemPerfilFoto.svg" alt="foto">
+        </div>
+        <p id="infoUser">
+          <span class="descricao">User Name</span>
+          <span class="descricao">Professor</span>
+        </p>
+      </div>
+      <a href="#" id="seta">
+        <img src="/assets/Seta-B.svg" alt="seta">
+      </a>
+      <a href="#" id="notificacao">
+        <img id="botaoNotificacao" src="/assets/Notificacao-Icone.svg" alt="notificacao">
+      </a>
+
+    </div>
+    <div class="direita">
+      <a href="#" id="logo">
+        <img src="/assets/SISGHA-Campus.svg" alt="Logo">
+      </a>
+    </div>
+  </header>
+  <!--Cabeçalho final-->
+  <!--SideBar começo-->
+  <nav class="menuLateral">
+    <ul>
+      <div class="Top">
+        <li class="itemMenu">
+          <a href="#">
+            <span class="icon">
+              <img src="/assets/Home.svg" alt="Home">
+            </span>
+          </a>
+        </li>
+        <li class="itemMenu">
+          <a href="#">
+            <span class="icon">
+              <img src="/assets/Usuario.svg" alt="Usuário">
+            </span>
+          </a>
+        </li>
+        <li class="itemMenu">
+          <a href="#">
+            <span class="icon">
+              <img src="/assets/Calendario.svg" alt="Calendario">
+            </span>
+          </a>
+        </li>
+      </div>
+      <div class="Down">
+        <li class="itemMenu">
+          <a href="#">
+            <span class="icon">
+              <img src="/assets/Configurações.svg" alt="Configuracoes">
+            </span>
+          </a>
+        </li>
+        <li class="itemMenu">
+          <a href="#">
+            <span class="icon">
+              <img src="/assets/Sair.svg" alt="Sair">
+            </span>
+          </a>
+        </li>
+      </div>
+    </ul>
+  </nav>
+  <!--SideBar final-->
+  <main>
+    <div class="container">
+      <div class="menuHorario">
+        <p>Março - Dia 06 a 11</p>
+        <a>
+          <img class="botaoSeta" src="/assets/Seta-B.svg" alt="seta">
+        </a>
+        <div class="botoes">
+          <img id="outros" src="/assets/Outros-Itens.svg" alt="outros">
+          <button id="geral">Horário geral
+          </button>
+          <button id="dia">Horário do dia
+          </button>
+          <img id="relogio" src="/assets/Relogio.svg" alt="relogio">
+        </div>
+      </div>
+      <section id="corpo">
+        <div class="semana">
+          <button class="botao">
+            <span>Segunda</span>
+            <p>06/03</p>
+          </button>
+          <button class="botao">
+            <span>Terça</span>
+            <p>06/03</p>
+          </button>
+          <button class="botao">
+            <span>Quarta</span>
+            <p>06/03</p>
+          </button>
+          <button class="botao">
+            <span>Quinta</span>
+            <p>06/03</p>
+          </button>
+          <button class="botao">
+            <span>Sexta</span>
+            <p>06/03</p>
+          </button>
+          <button class="botao">
+            <span>Sábado</span>
+            <p>06/03</p>
+          </button>
+        </div>
+        <div class="horarios">
+          <div id="class">
+            <h3>Linguagem de Programação - 2ª Informática</h3>
+            <p>Ambiente: Sala 27</p>
+            <p>Horário: 07:30 - 08:20</p>
+          </div>
+          <div class="class" <h3>Redes - 3ª Informática</h3>
+            <p>Ambiente: Sala 25</p>
+            <p>Horário: 08:20 - 09:10</p>
+            <span>
+              <img src="/assets/Relogio.svg" alt="relogio">
+            </span>
+          </div>
+          <div class="class">
+            <h3>Redes - 3ª Informática</h3>
+            <p>Ambiente: Sala 25</p>
+            <p>Horário: 09:10 - 10:00</p>
+          </div>
+        </div>
+    </div>
+    </section>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
