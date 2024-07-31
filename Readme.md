@@ -1,12 +1,26 @@
-<h1 align="center">Desafio SISGHA</h1>
+# Desafio SISGHA
 
-<img src="assets/telaprojeto.png">
-<h6 ><a href="http://127.0.0.1:5500/index.html">Veja o site</a></h6>
+Este projeto consiste na implementação de uma tela a partir de um protótipo do Figma.
 
-## 📄 Sobre o projeto
+<p><img src="assets/TelaFinal.png"><br>Demonstração da tela</p>
 
-Esse projeto tem a finalidade de apresentar um card básico em HTML e CSS para o projeto SISGHA.
+## Tabela de Conteúdos
 
-## 💻 Ferramenta utilizada
+- [Sobre](#-sobre)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Ferramentas Utilizadas](#-ferramentas-utilizada)
+
+## 📄 Sobre
+
+A tela foi desenvolvida com base no modelo "Horário Diário" do SISGHA, no Figma, visando aplicar os conceitos de HTML, CSS e JavaScript anteriormente estudados.
+
+## 👩🏻‍💻Tecnologias Utilizadas
+
+- **HTML**: Estrutura da página
+- **CSS**: Estilização e layout
+- **JavaScript**: Funcionalidades interativas
+
+## 💻 Ferramentas utilizada
 
 - [Visual Studio Code](https://code.visualstudio.com/)
+- [Figma](https://www.figma.com/)
