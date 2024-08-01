@@ -40,49 +40,43 @@
   </header>
   <!--Cabeçalho final-->
   <!--SideBar começo-->
-  <nav class="menuLateral">
-    <ul>
-      <div class="Top">
-        <li class="itemMenu">
+  <nav id="sidebar">
+    <div id="sidebar-content">
+      <ul id="side_items">
+        <li class="side-item">
           <a href="#">
-            <span class="icon">
-              <img src="/assets/Home.svg" alt="Home">
-            </span>
+            <img class="icone" src="/assets/Home.svg" alt="Inicio">
+            <span class="item-description">Início</span>
           </a>
         </li>
-        <li class="itemMenu">
+        <li class="side-item">
           <a href="#">
-            <span class="icon">
-              <img src="/assets/Usuario.svg" alt="Usuário">
-            </span>
+            <img class="icone" src="/assets/Usuario.svg" alt="usuario">
+            <span class="item-description">Perfil</span>
           </a>
         </li>
-        <li class="itemMenu">
+        <li class="side-item">
           <a href="#">
-            <span class="icon">
-              <img src="/assets/Calendario.svg" alt="Calendario">
-            </span>
+            <img class="icone" src="/assets/Calendario.svg" alt="calendario">
+            <span class="item-description">Calendário</span>
           </a>
         </li>
-      </div>
-      <div class="Down">
-        <li class="itemMenu">
-          <a href="#">
-            <span class="icon">
-              <img src="/assets/Configurações.svg" alt="Configuracoes">
-            </span>
-          </a>
-        </li>
-        <li class="itemMenu">
-          <a href="#">
-            <span class="icon">
-              <img src="/assets/Sair.svg" alt="Sair">
-            </span>
-          </a>
-        </li>
-      </div>
-    </ul>
+      </ul>
+    </div>
+    <li id="configuracoes" class="side-item">
+      <a href="#">
+        <img class="icone" src="/assets/Configurações.svg" alt="configuracoes">
+        <span class="item-description">Configurações</span>
+      </a>
+    </li>
+    <div id="logout">
+      <button id="logout-btn">
+        <img class="icone" src="/assets/Sair.svg" alt="sair">
+        <span class="item-description">Sair</span>
+      </button>
+    </div>
   </nav>
+
   <!--SideBar final-->
   <main>
     <!--Horários começo-->
@@ -156,3 +150,72 @@
 </body>
 
 </html>
+<!--<nav class="menuLateral">
+    <div class="conteudoSidebar">
+      <div class="itemMenu">
+        <a href="#">
+          <span class="icon">
+            <img src="/assets/Home.svg" alt="Home">
+            <span class="descricao">Início</span>
+          </span>
+        </a>
+      </div>
+      <div class="itemMenu">
+        <a href="#">
+          <span class="icon">
+            <img src="/assets/Usuario.svg" alt="Usuário">
+            <span class="descricao">Perfil</span>
+          </span>
+        </a>
+      </div>
+      <div class="itemMenu">
+        <a href="#">
+          <span class="icon">
+            <img src="/assets/Calendario.svg" alt="Calendario">
+            <span class="descricao">Calendário</span>
+          </span>
+        </a>
+      </div>
+    </div>
+    <div class="itemMenu">
+      <a href="#">
+        <span class="icon">
+          <img src="/assets/Configurações.svg" alt="Configuracoes">
+          <span class="descricao">Configurações</span>
+        </span>
+      </a>
+    </div>
+    <div class="itemMenu">
+      <a href="#">
+        <span class="icon">
+          <img src="/assets/Sair.svg" alt="Sair">
+          <span class="descricao">Sair</span>
+        </span>
+      </a>
+    </div>
+    </div>
+  </nav>-->
+<!--
+nav.menuLateral {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 57px;
+  height: 100vh;
+  background-color: #39a048;
+  padding: 15px;
+}
+ul {
+  height: 100vh;
+  list-style-type: none;
+}
+ul li.itemMenu a {
+  text-decoration: none;
+  padding: 12px 4%;
+  display: flex;
+  margin-bottom: -10px;
+}
+div.Top {
+  margin-bottom: 340px;
+  padding-top: 65px;
+}-->

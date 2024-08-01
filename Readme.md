@@ -7,14 +7,14 @@ Este projeto consiste na implementação de uma tela a partir de um protótipo d
 ## Tabela de Conteúdos
 
 - [Sobre](#-sobre)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [Ferramentas Utilizadas](#-ferramentas-utilizada)
 
 ## 📄 Sobre
 
 A tela foi desenvolvida com base no modelo "Horário Diário" do SISGHA, no Figma, visando aplicar os conceitos de HTML, CSS e JavaScript anteriormente estudados.
 
-## 👩🏻‍💻Tecnologias Utilizadas
+## 👩🏻‍💻 Tecnologias Utilizadas
 
 - **HTML**: Estrutura da página
 - **CSS**: Estilização e layout
