@@ -1,5 +1,8 @@
-const botao = document.querySelector(".botao");
+const listaDeBotoes = document.querySelectorAll(".botao");
 
-botao.addEventListener("click", () => {
-  botao.style.backgroundColor = "#118d3b";
+listaDeBotoes.forEach((element) => {
+  element.addEventListener("click", () => {
+    listaDeBotoes.forEach((item) => item.classList.remove("active"));
+    element.classList.add("active");
+  });
 });

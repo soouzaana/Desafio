@@ -243,6 +243,7 @@ div.botoes {
   line-height: 18px;
   text-align: justify;
   color: #9ab69e;
+  cursor: pointer;
 }
 #dia {
   width: 139.66px;
@@ -285,7 +286,7 @@ div.botoes {
   position: absolute;
   display: flex;
   border: 0px 0px 2px 0px;
-  border-bottom: 2px solid #118d3b;
+  border-bottom: 1px solid #118d3b;
   top: 25px;
   margin-left: 19px;
 }
@@ -309,13 +310,16 @@ div.botoes {
   text-align: center;
   color: #118d3b;
   white-space: wrap;
+  cursor: pointer;
 }
 
-.botao:hover {
+.active {
   background-color: #118d3b;
   color: #fff;
   border: 0px 0px 2px 0px;
-  border-bottom: 2px solid #fff;
+}
+.active span {
+  border-bottom: 1px solid #fff;
 }
 
 .horarios {
